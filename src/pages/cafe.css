@@ -1,0 +1,132 @@
+.Nav{
+    display: flex;
+    padding: 10px;
+    margin-bottom: 2%;
+    background: #704d0cd3;
+    justify-content:left;
+    font-family: 'Times New Roman', Times, serif;
+    color: #7c4302;
+    text-align: left;
+    margin: 0%;
+}
+
+.form{
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin-bottom: 10%;
+    gap: 20px;
+    justify-content: center;
+    margin: 0%;
+}
+
+input{
+    border-width: 1px;
+    background-color: #f1dfbd;
+    color: #7c4302;
+    border-color: #744005;
+    padding: 10px;
+    padding-left: 5px
+}
+
+button{
+    color: #ffffff;
+    border-radius: 30%;
+    width: 200px;
+    text-align: center;
+    background: #5f3e02;
+    font-style: oblique;
+    padding: 10px;
+    margin: 50px;
+    margin-top: -10px;
+}
+
+body{
+    display: flex;
+    margin: 0px;
+    flex-direction: column;
+    padding: 0px;
+}
+section{
+    margin: 0%;
+}
+
+.link{
+    margin-right: 100px;
+    text-align:left;
+    display: flex;
+    background-color: #ce9222;
+    padding:20px;
+    margin-bottom: 10px;
+    border: 30px;
+    border-radius: 50%;
+    width: 500px;
+    font-size: 20px;
+    gap: 20px;
+}
+
+a{
+    text-decoration:none;
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+
+a:hover{
+    color: rgb(248, 209, 171);
+}
+
+.Hero{
+    background-color: beige;
+    color: #7c4302;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+.Menu{
+    color: #8d5b22;
+    background: #e4cea4;
+    padding: 5px;
+}
+
+.cards{
+    margin-right: 100px;
+    text-align:left;
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+    margin-bottom: 10px;
+    border: 30px;
+    border-radius: 50%;
+    width: 500px;
+    font-size: 20px;
+    gap: 20px;
+}
+
+.Reservaciones{
+    color: #7c4302;
+    background: #d1b688;
+    margin: 0px;
+    padding: 30px;
+}
+
+.Contacto{
+    color: beige;
+    background: #744005;
+}
+.num{
+    display: flex;
+    margin: 20px;
+    gap: 30px;
+}
+
+.Ubi{
+    color: #744005;
+    background: #d1b688;
+}
+
+h1{
+    margin: 50px;
+    padding-top: -10px;
+}

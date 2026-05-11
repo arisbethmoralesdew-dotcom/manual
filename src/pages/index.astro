@@ -1,0 +1,33 @@
+---
+// Parte 1: El "Frontmatter" (JavaScript/TypeScript)
+import Nav from '../components/Nav.astro';
+---
+
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Mi Blog de Vida</title>
+  </head>
+  <body>
+    <Nav />
+
+    <main>
+      <h1>Bienvenido a la vida de Aris</h1>
+      <p>Este es un sitio fue creado para que conozcas sobre mí</p>
+      <img src="aris.jpg" alt="Mi foto" width="200">
+    </main>
+
+    <style>
+      /* Estilos específicos para esta página */
+      main {
+        padding: 2rem;
+        font-family: system-ui, sans-serif;
+      }
+      h1 {
+        color: #469b00;
+      }
+    </style>
+  </body>
+</html>

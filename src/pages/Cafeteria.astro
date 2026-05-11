@@ -1,0 +1,86 @@
+---
+
+---
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="generator" content={Astro.generator} />
+        <title>Cadesaris</title>
+        <link rel="stylesheet" href="/src/pages/cafe.css">
+    </head>
+    <body>
+        <!-- 1.Nav -->
+        <nav class="Nav">
+        <img src="cafe.png" width="100px">
+        <div class="link">
+            <a href="#Hero">¿Quienes somos?</a>
+            <a href="#Menu">Menu</a>
+            <a href="#Reserva">Reserva</a>
+            <a href="#Contacto">Contacto</a>
+            <a href="#Ubicacion">Ubicacion</a>
+        </div>
+        </nav>
+
+        <!--2. HERO -->
+        <section class="Hero">
+            <h1> Amor en cada sorbo</h1>
+            <p>Cada visita, una historia; cada taza, un recuerdo</p>
+            <img src="cariño.png" width="400px">
+        </section>
+
+        <section id="Menu" class="Menu">
+            <h2>Menu</h2>
+            <div class="cards">
+                <div class="cards">Bebidas Calientes</div>
+                <div class="cards">Bebidas Frías</div>
+                <div class="cards">Postres</div>
+                <div class="cards">Alimentos</div>
+                <div class="cards">Panadería</div>
+                <div class="cards">Especialidad de la Casa</div>
+            </div>
+        </section>
+
+        <section id="Reserva" class="Reservaciones">
+        <h2>Reserva tu visita</h2>
+            <form>
+                <div class="form">
+                <label for="name">Tu nombre</label>
+                <input type="text" id="name" name="name" 
+                placeholder="escribe tu nombre" required>
+                <label for="fecha">Fecha</label>
+                <input type="date" id="fecha">
+                <label for="hora">Hora</label>
+                <input type="time" id="hora">
+                <label for="number">Num. de personas</label>
+                <input type="number" id="number" 
+                placeholder="ej. 3">
+                <label for="moment">Motivo</label>
+                <input type="text" id="moment" 
+                placeholder="ej. Cumpleaños, negocios..">
+                <label for="adicional">Notas</label>
+                <input type="text" id="adicional"
+                placeholder="Adicionales">
+                <label></label>
+                <button type="submit">Reservar</button>
+                </div>
+            </form>
+        </section>
+
+        <section id="Contacto" class="Contacto">
+            <h2>Contáctanos</h2>
+            <div class="num">
+            <a href="https://www.instagram.com/">Instagram</a>
+            <a href="https://www.facebook.com/">Facebook</a>
+            <a href="55 7400 9362">Telefono</a>
+            </div>
+        </section>
+
+        <section id="Ubicacion" class="Ubi">
+            <h2>Ubicación</h2>
+            <a href="https://www.google.com/maps">Maps</a>
+        </section>
+
+    </body>
+</html>

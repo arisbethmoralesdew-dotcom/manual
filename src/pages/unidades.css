@@ -1,0 +1,31 @@
+body{
+    font-size: 40px;
+    margin: 0;
+}
+
+div{
+    background: #B08F8F;
+    padding: 20px;
+    font-family: sans-serif;
+    border-left: 20px solid #b36f6f;
+    font-size: 20px;
+    width: 80vw;
+    height: 80vh;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+h1{
+    margin: 0;
+    font-size: 20px;
+}
+
+span{
+    color: #b36f6f;
+    font-size: 0.5em;
+}
+
+p{
+    color: #643d3d;
+    font-size: 1em;
+}

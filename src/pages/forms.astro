@@ -1,0 +1,45 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="formulario"></Layout>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" href="/favicon.ico" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<link rel="stylesheet" href="/src/style/global.css">
+
+		<title>Formularios</title>
+	</head>
+	<body>
+		<header class="cabecera">
+		<h1>FORMULARIO </h1>
+		</header>
+
+		<p class="Explicacion">
+			Este espacio es para que llenes los campos con tu informacion
+			Para que yo pueda crear una pequeña pagina web con tus datos
+		</p>
+        
+		<form>
+			<label for="nombre">Tu nombre</label>
+            <input type="text" id="nombre" placeholder="escribe tu nombre"/>
+			<label for="emeil">Tu email</label>
+			<input type="email" id="email" required placeholder="escribe tu correo">
+			            <label for="tel">Tu telefono</label>
+			<input type="tel" id="tel" placeholder="escribe tu celular"/>
+			<label for="contrains">Contraseña</label>
+            <input type="password" required placeholder="escribe tu contraseña"/>
+			<label>Acepta terminos y condiciones:</label>
+            <input type="checkbox">
+			<label for="Imagen">Sube una image tuya:</label>
+            <input type="file" id="Imagen"/>
+			<label>Selecciona tu fecha de nacimiento:</label>
+            <input type="date">
+            <button type="submit">Enviar</button>
+        </form>
+
+	</body>
+</html>

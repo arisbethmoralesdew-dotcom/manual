@@ -1,0 +1,58 @@
+/* src/styles/global.css */
+:root{
+  ---fondo:rgb(236, 188, 116);
+  ---texto:#3c3;
+  ---titulo:#d4a;
+  ---tema:rgb(245, 18, 143);
+
+
+}
+body {
+  max-width: 500px;
+  margin: 40px;
+  font-family: sans-serif;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label{
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+input{
+  padding: 5px;
+  border-radius: 5%;
+  font-size: 15px;
+}
+
+input:focus{
+  border-color: rgb(255, 0, 170);
+  outline: none;
+}
+
+button{
+  background: var(---titulo);
+  color: (260,150,89);
+  padding: 7px;
+  width: 200px;
+  border-radius: 50%;
+  border-color: var(---tema);
+  cursor: pointer;
+}
+
+button:hover{
+  background: rgb(243, 94, 94);
+}
+
+.cabecera{
+  color: var(---titulo);
+}
+
+.Explicacion{
+  color: var(---tema);
+}
