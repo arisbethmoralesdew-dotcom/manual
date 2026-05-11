@@ -1,0 +1,191 @@
+body {
+    background: #44a80a;
+}
+
+.panda {
+    position: relative;
+    width: 220px;
+    margin: 100px auto;
+}
+
+
+.heard {
+    position: relative;
+    z-index: 2;
+    width: 220px;
+    height: 200px;
+    background: white;
+    border-radius: 50%;
+    margin: 100px auto;
+}
+
+.ear {
+    width: 80px;
+    height: 80px;
+    background: black;
+    border-radius: 50%;
+    position: absolute;
+    top: -30px;
+}
+
+.ear.left {
+    left: -10px;
+}
+
+.ear.right {
+    right: -10px;
+}
+
+.pink {
+    width: 50px;
+    height: 50px;
+    background: pink;
+    border-radius: 50%;
+    position: absolute;
+    /*nos ayuda a posicionar los elementos
+    en donde corresponde las clases hijas
+    en este elemento, posiciona a ambas clases pink
+    dentro de sus clases padres que son ear right y left*/
+    top: 15px;
+    left: 15px;
+}
+
+.eye {
+    width: 45px;
+    height: 60px;
+    background: black;
+    border-radius: 60%;
+    position: absolute;
+    top: 50px;
+}
+
+.eye.left {
+    left: 40px;
+}
+
+.eye.right {
+    right: 40px;
+}
+
+.eye.white {
+    width: 20px;
+    height: 20px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    left: 5px;
+}
+
+.nose {
+    width: 25px;
+    height: 20px;
+    background: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 110px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.mounth {
+    width: 30px;
+    height: 20px;
+    border-bottom: 10px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 130px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.cheek {
+    width: 25px;
+    height: 20px;
+    background: pink;
+    border-radius: 50%;
+    position: absolute;
+    top: 120px;
+}
+
+.cheek.left {
+    left: 30px;
+}
+
+.cheek.right {
+    right: 30px;
+}
+
+.cuerpo {
+    position: absolute;
+    top: -70px; /*mueve el cuerpo hacia abajo */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 230px;
+    height: 210px;
+    background: black;
+    border-radius: 50%;
+    margin: -40px auto;
+    position: relative;
+}
+
+.lomo {
+    width: 180px;
+    height: 180px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.paw {
+    background: black;
+    border-radius: 60%;
+    position: absolute;
+}
+
+.paw.left {
+    width: 60px;
+    height: 85px;
+    left: -20px;
+    top: 40px;
+}
+
+.paw.right {
+    width: 60px;
+    height: 80px;
+    right: -20px;
+    top: 15px;
+    transform: rotate(20deg);
+}
+
+.paw.back-left {
+    left: 20px;
+    bottom: -20px;
+    width: 60px;
+    height: 60px;
+}
+
+.paw.back-right {
+    right: 20px;
+    bottom: -20px;
+    width: 60px;
+    height: 60px;
+}
+
+.claws {
+    width: 30px;
+    height: 10px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 5px;
+    left: 15px;
+}
+
+.claws.right{
+    top: 10px;
+}
+

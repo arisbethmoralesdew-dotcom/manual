@@ -1,0 +1,91 @@
+p{
+    color:red;
+    font-family: sans-serif, Tahoma;
+    font-size: 13px;
+    font-weight: bolder;
+    font-style: italic;
+    text-align:center;
+    line-height: 2;
+    letter-spacing: 1px;
+    text-transform:capitalize;
+    text-align: end;
+}
+
+h3{
+    text-align: end;
+}
+
+a{
+    text-decoration: none;
+}
+.Fabula{
+    color:blue;
+}
+
+.Tarjeta{
+    background-color: #f200f2;
+    padding:15px;
+    margin-bottom: 20px;
+    border: 30px;
+    border-radius: 50%;
+    width: 200px;
+    font-size: 20px;
+    color: aqua;
+}
+
+.Membresia{
+    background-color: #f200f2;
+    padding: 20px;
+    margin-bottom: 10px;
+    border:15px;
+    border-radius: 50%;
+    width: 200px;
+    font-size: 20px;
+    color: #00eaf2;
+
+}
+
+.Regalo{
+    background-color: #f200f2;
+    padding: 20px;
+    margin-bottom: 10px;
+    border:15px;
+    border-radius: 50%;
+    width: 200px;
+    font-size: 20px;
+    color: #00f2de;
+    background: var(---radio);
+   
+}
+
+.contenedores{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    background: var(---acento);
+}
+
+.Cabecera{
+    background: var(---primario);
+    font-family:'Times New Roman';
+    color: var(---acento)
+}
+
+:root{
+    ---primario: #9fc517;
+    ---acento:rgba(68, 131, 204, 0.733);
+    ---texto: #4d44c2;
+    ---fondo:rgb(255, 232, 202);
+    ---radio:rgb(85, 221, 119);
+
+
+}
+
+body{
+    background: var(---fondo);
+    margin: 10%;
+    color:var(---texto);
+}
+
+
